@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "compile": ".\\node_modules\\.bin\\tsc -w"
+  }
+}
