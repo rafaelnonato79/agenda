@@ -19,7 +19,7 @@
                     <h1>Cadastro de Contatos</h1>
                 </div>
                 <div class="row">
-                    <form action="">
+                    <form id="formulario-de-cadastro">
                         <div class="mb-3">
                             <label for="nome" class="form-label">Nome</label>
                             <div class="input-group">
@@ -35,7 +35,7 @@
                                 <span class="input-group-text">
                                     <i class="fas fa-phone"></i>
                                 </span>
-                                <input type="tel" class="form-control" name="telefone" id="telefone">
+                                <input type="tel" class="form-control" name="fone" id="fone">
                             </div>
                         </div>
 
@@ -55,7 +55,7 @@
                     <h1>Lista de Contatos</h1>
                 </div>
                 <div class="row">
-                    <table class="table table-striped table-hover">
+                    <table id="lista-de-contatos" class="table table-striped table-hover">
                         <thead>
                             <tr>
                                 <th>Nome</th>
@@ -64,7 +64,7 @@
                             </tr>
                         </thead>
                         <tbody>
-
+                        <!--adicionado dinamicamente a medida que é cadastado um contato-->
                         </tbody>
                     </table>
                 </div>

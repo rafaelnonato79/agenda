@@ -4,5 +4,5 @@
         "outDir": ".\\dist\\js",
         "noEmitOnError": true
     },
-    "include": [".\\app\\**\\*"]
+    "include": [".\\app\\**\\*", "dist/model/contato.js"]
 }
